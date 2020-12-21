@@ -23,7 +23,7 @@ struct AnimatingBindings: View {
             .padding(40)
             .background(Color.red)
             .foregroundColor(.white)
-            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+            .clipShape(Circle())
             .scaleEffect(animationAmount)
         }
     }
