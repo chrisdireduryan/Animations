@@ -13,6 +13,7 @@
 		7912D15C2590E85E006B4D74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7912D15B2590E85E006B4D74 /* Preview Assets.xcassets */; };
 		7912D16525910EF9006B4D74 /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912D16425910EF9006B4D74 /* AnimatingBindings.swift */; };
 		7912D168259114F9006B4D74 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912D167259114F9006B4D74 /* ExplicitAnimations.swift */; };
+		79F880AA2592358400F29C0A /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F880A92592358400F29C0A /* ControllingAnimationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7912D15D2590E85E006B4D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7912D16425910EF9006B4D74 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		7912D167259114F9006B4D74 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
+		79F880A92592358400F29C0A /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				7912D15A2590E85E006B4D74 /* Preview Content */,
 				7912D16425910EF9006B4D74 /* AnimatingBindings.swift */,
 				7912D167259114F9006B4D74 /* ExplicitAnimations.swift */,
+				79F880A92592358400F29C0A /* ControllingAnimationStack.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				7912D168259114F9006B4D74 /* ExplicitAnimations.swift in Sources */,
 				7912D1572590E85E006B4D74 /* ContentView.swift in Sources */,
 				7912D1552590E85E006B4D74 /* AnimationsApp.swift in Sources */,
+				79F880AA2592358400F29C0A /* ControllingAnimationStack.swift in Sources */,
 				7912D16525910EF9006B4D74 /* AnimatingBindings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +292,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.direduryan.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.direduryan.Animations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
