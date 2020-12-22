@@ -13,6 +13,7 @@
 		7912D15C2590E85E006B4D74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7912D15B2590E85E006B4D74 /* Preview Assets.xcassets */; };
 		7912D16525910EF9006B4D74 /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912D16425910EF9006B4D74 /* AnimatingBindings.swift */; };
 		7912D168259114F9006B4D74 /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7912D167259114F9006B4D74 /* ExplicitAnimations.swift */; };
+		79D263FF259241A600B4C9AA /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D263FE259241A600B4C9AA /* AnimatingGestures.swift */; };
 		79F880AA2592358400F29C0A /* ControllingAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F880A92592358400F29C0A /* ControllingAnimationStack.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		7912D15D2590E85E006B4D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7912D16425910EF9006B4D74 /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		7912D167259114F9006B4D74 /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
+		79D263FE259241A600B4C9AA /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
 		79F880A92592358400F29C0A /* ControllingAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingAnimationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +68,7 @@
 				7912D16425910EF9006B4D74 /* AnimatingBindings.swift */,
 				7912D167259114F9006B4D74 /* ExplicitAnimations.swift */,
 				79F880A92592358400F29C0A /* ControllingAnimationStack.swift */,
+				79D263FE259241A600B4C9AA /* AnimatingGestures.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D263FF259241A600B4C9AA /* AnimatingGestures.swift in Sources */,
 				7912D168259114F9006B4D74 /* ExplicitAnimations.swift in Sources */,
 				7912D1572590E85E006B4D74 /* ContentView.swift in Sources */,
 				7912D1552590E85E006B4D74 /* AnimationsApp.swift in Sources */,
